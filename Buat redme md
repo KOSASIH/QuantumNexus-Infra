@@ -1,0 +1,64 @@
+import numpy as np
+import networkx as nx
+import matplotlib.pyplot as plt
+from qutip import *
+
+# 1. Membuat jaringan kuantum dengan simpul tepi
+class QuantumEdgeNode:
+    def __init__(self, node_id):
+        self.node_id = node_id
+        self.qubits = basis(2, 0)  # Inisialisasi ke ground state (|0>)
+
+    def send_qubit(self):
+        # Mengirimkan qubit entangled
+        return self.qubits
+
+    def receive_qubit(self, qubit):
+        # Menerima qubit entangled
+        self.qubits = qubit
+
+# 2. Membuat jaringan simulasi menggunakan NetworkX
+def create_network(num_nodes):
+    G = nx.random_geometric_graph(num_nodes, 0.3)
+    pos = nx.get_node_attributes(G, 'pos')
+    return G, pos
+
+# 3. Protokol komunikasi kuantum (contoh sederhana menggunakan Bell state)
+def quantum_communication(node1, node2):
+    # Membuat Bell State (entanglement antara dua simpul)
+    bell_state = (tensor(basis(2, 0), basis(2, 0)) + tensor(basis(2, 1), basis(2, 1))).unit()
+
+    # Mengirimkan Bell State ke kedua simpul
+    node1.receive_qubit(bell_state.ptrace(0))  # Simpul pertama menerima separuh Bell state
+    node2.receive_qubit(bell_state.ptrace(1))  # Simpul kedua menerima separuh Bell state
+    print(f"Entanglement between Node {node1.node_id} and Node {node2.node_id} established.")
+
+# 4. Fungsi untuk menyebarkan simpul tepi
+def deploy_edge_nodes(num_nodes):
+    network, pos = create_network(num_nodes)
+    nodes = {i: QuantumEdgeNode(i) for i in range(num_nodes)}
+
+    # Melakukan komunikasi antar simpul terhubung
+    for edge in network.edges():
+        node1, node2 = nodes[edge[0]], nodes[edge[1]]
+        quantum_communication(node1, node2)
+
+    # Visualisasi jaringan
+    plt.figure(figsize=(8, 8))
+    nx.draw(network, pos, node_color='blue', with_labels=True, node_size=500, font_size=10)
+    plt.show()
+
+    return nodes, network
+
+# 5. Simulasi jaringan kuantum di wilayah kurang terlayani
+def simulate_quantum_edge_network(num_nodes):
+    print("Deploying quantum edge nodes...")
+    nodes, network = deploy_edge_nodes(num_nodes)
+
+    # Lakukan operasi atau simulasi tambahan di sini
+    # Misalnya: Menghitung latensi, bandwidth, optimisasi routing, dll.
+
+    print("Quantum edge network simulation complete.")
+
+# Eksekusi simulasi dengan jumlah simpul tertentu
+simulate_quantum_edge_network(10)
