@@ -69,7 +69,7 @@ To set up the Quantum Nexus Infrastructure on your local machine, follow these s
 
 5. Usage Guidelines
 
-To run the main application, execute the following command:
+   To run the main application, execute the following command:
 
    ```bash
    1. python src/main.py
