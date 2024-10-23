@@ -13,6 +13,17 @@
 [![ISO 22301:2019](https://img.shields.io/badge/ISO-22301:2019-blue.svg)](https://www.iso.org/iso-22301-business-continuity.html)
 [![SOC 1 Type II](https://img.shields.io/badge/SOC_1-Type_II-orange.svg)](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/soc1.html)
 
+[![AWS Well-Architected Framework](https://img.shields.io/badge/AWS-Well--Architected_Framework-orange.svg)](https://aws.amazon.com/architecture/well-architected/)
+[![Azure Security Benchmark](https://img.shields.io/badge/Azure-Security_Benchmark-blue.svg)](https://docs.microsoft.com/en-us/azure/security/benchmarks/overview)
+[![Google Cloud Security Command Center](https://img.shields.io/badge/Google_Cloud-Security_Command_Center-green.svg)](https://cloud.google.com/security-command-center)
+[![ISO 27701:2019](https://img.shields.io/badge/ISO-27701:2019-blue.svg)](https://www.iso.org/iso-27701-privacy-information-management.html)
+[![ISO 27017:2015](https://img.shields.io/badge/ISO-27017:2015-green.svg)](https://www.iso.org/iso-27017-information-security-for-cloud-services.html)
+[![ISO 27018:2019](https://img.shields.io/badge/ISO-27018:2019-orange.svg)](https://www.iso.org/iso-27018-protection-of-personally-identifiable-information.html)
+[![ CSA CCM](https://img.shields.io/badge/CSA_CCM-Compliant-red.svg)](https://cloudsecurityalliance.org/research/cloud-controls-matrix/)
+[![HITRUST CSF](https://img.shields.io/badge/HITRUST-CSF-blue.svg)](https://hitrustalliance.net/hitrust-csf/)
+[![IEC 62443](https://img.shields.io/badge/IEC-62443-green.svg)](https://www.iec.ch/standards/iec-62443-industrial-automation-and-control-systems-security/)
+[![NERC CIP](https://img.shields.io/badge/NERC-CIP-orange.svg)](https://www.nerc.com/pa/Stand/Pages/CIP-Standards.aspx)
+
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/QuantumNexus-Infra">Quantum Nexus</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 # QuantumNexus-Infra
