@@ -1,0 +1,9 @@
+# Network Configuration Settings
+network:
+  ip_range: "192.168.1.0/24"  # Define the IP range for the network
+  subnet_mask: "255.255.255.0" # Subnet mask for the network
+  gateway: "192.168.1.1"       # Default gateway for the network
+  dns_servers:
+    - "8.8.8.8"                # Primary DNS server
+    - "8.8.4.4"                # Secondary DNS server
+  max_nodes: 50                # Maximum number of nodes allowed in the network
