@@ -1,0 +1,11 @@
+# QKD Protocol Configuration
+qkd:
+  protocol: "BB84"              # QKD protocol to be used (e.g., BB84, E91)
+  key_length: 256               # Length of the generated keys in bits
+  transmission_distance: 100    # Maximum distance for secure key distribution in kilometers
+  error_rate_threshold: 0.1     # Maximum allowable error rate for key verification
+  qkd_nodes:
+    - node_id: "node1"
+      location: "Data Center A"
+    - node_id: "node2"
+      location: "Data Center B"
