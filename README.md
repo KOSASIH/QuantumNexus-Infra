@@ -1,3 +1,12 @@
+[![ISO 9001:2015 ](https://img.shields.io/badge/ISO-9001:2015-blue.svg)](https://www.iso.org/iso-9001-quality-management.html)
+[![ISO 27001:2013](https://img.shields.io/badge/ISO-27001:2013-green.svg)](https://www.iso.org/iso-27001-information-security.html)
+[![CMMI Level 3](https://img.shields.io/badge/CMMI-Level_3-orange.svg)](https://cmmiinstitute.com/cmmi-maturity-level-3/)
+[![ITIL v4](https://img.shields.io/badge/ITIL-v4-purple.svg)](https://www.axelos.com/best-practice-solutions/itil)
+[![CE Marking](https://img.shields.io/badge/CE-Marking-red.svg)](https://ec.europa.eu/growth/single-market/ce-marking_en.htm)
+[![GDPR Compliance](https://img.shields.io/badge/GDPR-Compliance-blue.svg)](https://gdpr.eu/)
+[![HIPAA Compliance](https://img.shields.io/badge/HIPAA-Compliance-green.svg)](https://www.hhs.gov/hipaa/index.html)
+[![SOC 2 Type II](https://img.shields.io/badge/SOC_2-Type_II-orange.svg)](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/soc2.html)
+
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/QuantumNexus-Infra">Quantum Nexus</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 # QuantumNexus-Infra
