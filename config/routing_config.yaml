@@ -1,0 +1,11 @@
+# Routing Algorithm Configuration
+routing:
+  algorithm: "Dijkstra"         # Routing algorithm to be used (e.g., Dijkstra, A*)
+  max_hops: 10                  # Maximum number of hops allowed in a route
+  load_balancing: true           # Enable or disable load balancing
+  timeout: 5                     # Timeout for route discovery in seconds
+  routing_nodes:
+    - node_id: "node1"
+      priority: 1                # Priority for routing decisions
+    - node_id: "node2"
+      priority: 2
