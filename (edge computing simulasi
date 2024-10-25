@@ -1,0 +1,17 @@
+Konsep Utama:
+
+1. Jaringan Kuantum: Menggunakan simpul kuantum untuk mengirimkan qubit antara simpul untuk berkomunikasi di wilayah yang sulit dijangkau.
+
+
+2. Komputasi Tepi: Setiap simpul tepi berfungsi sebagai titik komunikasi, pemrosesan, dan penghubung.
+
+
+3. Distribusi Informasi Kuantum: Menggunakan protokol distribusi kuantum seperti Quantum Key Distribution (QKD).
+
+
+4. Optimisasi Jalur: Penggunaan algoritma optimisasi untuk menentukan rute terbaik melalui jaringan yang terhubung lemah.
+Kode ini merupakan simulasi sederhana, tetapi kompleksitasnya dapat ditingkatkan dengan memasukkan model kuantum fisik yang lebih mendalam.
+
+Dependensi yang dibutuhkan:
+
+pip install qutip networkx matplotlib
